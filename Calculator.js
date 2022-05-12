@@ -16,13 +16,11 @@
           result=Num1*Num2;
           break;
           case'/':
-          if (op =='/'){
             if (Num2==0){
               alert("Hа ноль делить нельзя!");
               return;
             }
             result=Num1/Num2;
-          }
           break;
       }
 document.getElementById("result").innerHTML=result;
